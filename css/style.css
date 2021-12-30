@@ -1,0 +1,50 @@
+#containerDeGameboard{
+    display: flex;
+    visibility:hidden;
+    justify-content: center;
+    vertical-align: middle;
+}
+#bg-blackie{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formPlayersName{
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    padding: 4em;
+    text-align: center;
+}
+#gameboard{
+    border: 1px solid black;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid black;
+    width: 33%;
+    height: 1.5em;
+    text-align: center;
+    font-size: 9em;
+}
+#restartButtonContainer{
+    text-align: center;
+}
+#crossClose{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 3rem;
+    transform: rotate(45deg);
+}
